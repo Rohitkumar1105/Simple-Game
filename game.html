@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+</head>
+
+<body>
+	<h3>Welcome</h3>
+	<h4>Click on the dragon to kill it and earn a point. Reach 10 points to end the game</h4>
+	<input type="number" id="temp" value=0 hidden>
+	<img id="image" style="position: absolute;" onclick="kill();" src="dragon.gif">
+	Score: <span id="score"> 0 </span>
+	<button style="display: none;" id="replay">Replay?</button>
+
+	<script type="text/javascript" src="game.js"></script>
+</body>
+</html>
